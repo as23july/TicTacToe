@@ -1,0 +1,29 @@
+.squarebox{
+    color: aqua;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    /* background-color: #e70c0c;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    font-size: 3em;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid black;
+    cursor: pointer; */
+}
+
+.X-squarebox:hover::after{
+    content: "X";
+    opacity: 0.4;
+    color: red;
+}
+.O-squarebox:hover::after{
+    content: "O";
+    opacity: 0.4;
+    color: blue;
+}

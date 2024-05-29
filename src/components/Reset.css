@@ -1,0 +1,21 @@
+.resetbutton{
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+    margin-top: 20px;
+    /* float: right; */
+    padding:20px;
+
+}
+button{
+    font-size: 1em;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: aqua;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(224, 14, 14);
+}

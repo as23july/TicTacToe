@@ -1,0 +1,21 @@
+/* .mainContainer{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+} */
+body{
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+button{
+  
+}
